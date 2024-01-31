@@ -11,7 +11,7 @@ const countdown = (count, callback) => {
         countdownElement.innerText = count;
       } else {
         clearInterval(countdownInterval);
-        countdownElement.classList.add('hidden');
+  
         messageElement.classList.remove('hidden');
         callback(); // Call the callback function when countdown finishes
       }
