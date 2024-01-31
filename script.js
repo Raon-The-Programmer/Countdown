@@ -5,7 +5,9 @@ const countdown = (count, callback) => {
     const countdownInterval = setInterval(() => {
       count--;
   
-      if (count > 0) {
+      if (count > 1) {
+        countdownElement.innerText = count;
+      } else if (count === 1) {
         countdownElement.innerText = count;
       } else {
         clearInterval(countdownInterval);
