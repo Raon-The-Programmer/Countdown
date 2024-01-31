@@ -1,20 +1,15 @@
-
 body {
     font-family: 'Arial', sans-serif;
-    display: flex;
     font-size: larger;
-    color:purple;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    color: purple;
     margin: 0;
-  }
-  
-  #countdown-container {
+    padding: 0;
+}
+
+#countdown-container {
     text-align: center;
-  }
-  
-  .hidden {
+}
+
+.hidden {
     display: none;
-  }
-  
+}
