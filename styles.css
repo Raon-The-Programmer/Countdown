@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     font-size: larger;
-    color: white; /* Change text color to white */
+    color: black; /* Change text color to white */
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, #84fab0, #8fd3f4); /* Add cool linear gradient background */
