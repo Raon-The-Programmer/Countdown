@@ -1,15 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
     font-size: larger;
-    color: purple;
+    color: white; /* Change text color to white */
     margin: 0;
     padding: 0;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4); /* Add cool linear gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 #countdown-container {
     text-align: center;
-}
-
-.hidden {
-    display: none;
 }
